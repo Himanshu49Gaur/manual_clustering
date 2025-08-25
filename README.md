@@ -86,3 +86,13 @@ This repository explores **three powerful clustering techniques** that overcome 
 - **Visualizations:** SOM grid plots, spectral embedding graphs.
 
 ---
+
+## **Installation & Usage**
+
+### **Requirements**
+- Python 3.8+
+- Required libraries:
+```
+pip install numpy scipy scikit-learn matplotlib seaborn networkx pandas os collections time 
+
+```
