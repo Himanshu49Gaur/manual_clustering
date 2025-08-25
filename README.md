@@ -112,7 +112,7 @@ Install dependencies:
 ---
 
 ## **Results & Visualizations**
-### Algorithm 1: Results & Analysis
+### SNN-Based Clustering: Results & Analysis
 
 ### 1. Leukemia Dataset
 
@@ -127,15 +127,15 @@ Install dependencies:
 - **Fowlkes-Mallows Index (FMI):** `0.6102`
 - **Purity Score:** `0.7222`
 
-### **Visualizations (To Be Added)**
-- Silhouette Plot (`/results/algorithm1/leukemia_silhouette.png`)
-- Cluster Heatmap (`/results/algorithm1/leukemia_heatmap.png`)
-- Hierarchical Clustering Dendrogram (`/results/algorithm1/leukemia_dendrogram.png`)
-- Cluster Visualization (`/results/algorithm1/leukemia_clusters.png`)
+### **Visualizations**
+- Silhouette Plot 
+- Cluster Heatmap 
+- Hierarchical Clustering Dendrogram 
+- Cluster Visualization 
 
 ---
 
-## 2. GLIOMA Dataset
+### 2. GLIOMA Dataset
 
 ### **Final Cluster Labels**
 [2 0 2 0 0 2 0 2 0 0 2 0 0 0 0 0 0 0 0 0 0 3 2 1 2 2 2 3 2 2 2 2 2 2 1 1 1
@@ -150,20 +150,20 @@ Install dependencies:
 
 ---
 
-## 3. Supervised Validation (GLIOMA Dataset)
+### 3. Supervised Validation (GLIOMA Dataset)
 - **Cross-Validation Accuracy Scores:** `[0.7, 0.6, 0.8, 0.9, 0.9]`
 - **Mean Accuracy:** `0.78`
 - **Standard Deviation:** `0.1166`
 - **Best Accuracy:** `0.90`
 
-### **Visualizations (To Be Added)**
-- Silhouette Plot (`/results/algorithm1/glioma_silhouette.png`)
-- Cluster Heatmap (`/results/algorithm1/glioma_heatmap.png`)
-- Hierarchical Clustering Dendrogram (`/results/algorithm1/glioma_dendrogram.png`)
-- Cluster Visualization (`/results/algorithm1/glioma_clusters.png`)
+### **Visualizations**
+- Silhouette Plot 
+- Cluster Heatmap 
+- Hierarchical Clustering Dendrogram
+- Cluster Visualization 
 
 ---
 
-## **Summary of Algorithm 1**
+### **Summary of SNN-Based Clustering**
 Algorithm 1 demonstrated **moderate clustering performance** on the Leukemia dataset (Purity `0.72`, FMI `0.61`) and **better performance on the GLIOMA dataset** (NMI `0.44`, ARI `0.27`). Supervised validation on GLIOMA confirmed **robust classification potential with a peak accuracy of 90%**. Visualizations (to be included) will provide insights into cluster structure, quality, and separability.
 
