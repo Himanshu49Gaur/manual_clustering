@@ -104,3 +104,7 @@ Clone this repository:
    git clone https://github.com/Himanshu49Gaur/manual_clustering.git
    cd manual_clustering
    ```
+Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
