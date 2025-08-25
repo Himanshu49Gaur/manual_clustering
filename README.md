@@ -20,16 +20,15 @@ This repository contains three Python implementations of **manual clustering alg
 
 ---
 
-## **Project Overview**
-High-dimensional biological data, such as **gene expression profiles**, often suffers from:
-- **Noise and sparsity**
-- **Complex inter-sample relationships**
-- **Difficulty in defining true clusters**
-
-This project explores three manual clustering approaches that:
-- Construct **robust similarity measures**.
-- Integrate **graph-based clustering methods**.
-- Provide **quantitative and qualitative evaluation metrics**.
+## **Overview**
+Clustering high-dimensional data (e.g., genomic datasets) is a complex task due to:
+- **Noise**, **sparsity**, and **non-linear patterns**.
+- Standard clustering methods like K-Means often fail to capture intricate structures.
+  
+This repository explores **three powerful clustering techniques** that overcome these limitations:
+- **Shared Nearest Neighbor (SNN)-based Clustering**
+- **SIMLR: Multi-kernel Learning for Similarity-based Clustering**
+- **Self-Organizing Maps (SOM) with Spectral Clustering**
 
 ---
 
