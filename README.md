@@ -112,9 +112,9 @@ Install dependencies:
 ---
 
 ## **Results & Visualizations**
-# Algorithm 1: Results & Analysis
+### Algorithm 1: Results & Analysis
 
-## 1. Leukemia Dataset
+### 1. Leukemia Dataset
 
 ### **Final Cluster Labels**
 [1 0 1 1 0 0 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 1 1 1 1 1 1 0 1 1 1
