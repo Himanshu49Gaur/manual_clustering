@@ -167,3 +167,53 @@ Install dependencies:
 ### **Summary of SNN-Based Clustering**
 Algorithm 1 demonstrated **moderate clustering performance** on the Leukemia dataset (Purity `0.72`, FMI `0.61`) and **better performance on the GLIOMA dataset** (NMI `0.44`, ARI `0.27`). Supervised validation on GLIOMA confirmed **robust classification potential with a peak accuracy of 90%**. Visualizations (to be included) will provide insights into cluster structure, quality, and separability.
 
+--- 
+
+## Algorithm 2: SIMLR-Based Clustering Results  
+
+This section presents the results of the **SIMLR** algorithm applied to **Dataset 1 (Leukemia)** and **Dataset 2 (GLIOMA)**. Dimensionality reduction using **PCA** was performed prior to clustering.  
+
+---
+
+### **Dataset 1**  
+
+### **Clustering Summary:**  
+- **Cluster Sizes:** {Cluster 1: 50, Cluster 0: 22}  
+
+### **Evaluation Metrics:**  
+- **Adjusted Rand Index (ARI):** -0.0248  
+- **Normalized Mutual Information (NMI):** 0.0087  
+- **Silhouette Score:** 0.0445  
+- **Purity Score:** 0.6528  
+
+### **Visualizations**  
+1. Learned Similarity Matrix (showing relationships learned by SIMLR).  
+2. 2D Clustering Plot (PCA-based cluster visualization).  
+3. Cluster-wise Feature Variance Heatmap (highlighting feature importance across clusters).  
+
+---
+
+## **Dataset 2 **  
+
+### **Clustering Summary:**  
+- **Cluster Sizes:** {Cluster 1: 36, Cluster 0: 36}  
+
+### **Evaluation Metrics:**  
+- **Adjusted Rand Index (ARI):** -0.0122  
+- **Normalized Mutual Information (NMI):** 0.0006  
+- **Silhouette Score:** 0.0039  
+- **Purity Score:** 0.6528  
+
+### **Visualizations**  
+1. Learned Similarity Matrix (capturing similarity structure).  
+2. 2D Clustering Plot (visualizing cluster separation).  
+3. Cluster-wise Feature Variance Heatmap (identifying discriminative features). 
+
+---
+
+### **Observation:**  
+- SIMLR performed poorly on both datasets with near-zero **ARI** and **NMI** values, indicating almost no meaningful clustering structure.
+- **Purity scores** remained moderate (~0.65) despite low internal cluster validation scores.  
+- Visualizations will provide deeper insights into **why clusters failed to form well** and whether **data distribution impacted performance**.  
+
+
