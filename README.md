@@ -108,3 +108,62 @@ Install dependencies:
    ```
    pip install -r requirements.txt
    ```
+
+---
+
+## **Results & Visualizations**
+# Algorithm 1: Results & Analysis
+
+## 1. Leukemia Dataset
+
+### **Final Cluster Labels**
+[1 0 1 1 0 0 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 1 1 1 1 1 1 0 1 1 1
+1 1 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 0 0 1 0 1 0 0 1 1 1]
+
+### **Evaluation Metrics**
+- **Adjusted Rand Index (ARI):** `0.1858`
+- **Normalized Mutual Info (NMI):** `0.1393`
+- **Adjusted Mutual Info (AMI):** `0.1300`
+- **Fowlkes-Mallows Index (FMI):** `0.6102`
+- **Purity Score:** `0.7222`
+
+### **Visualizations (To Be Added)**
+- Silhouette Plot (`/results/algorithm1/leukemia_silhouette.png`)
+- Cluster Heatmap (`/results/algorithm1/leukemia_heatmap.png`)
+- Hierarchical Clustering Dendrogram (`/results/algorithm1/leukemia_dendrogram.png`)
+- Cluster Visualization (`/results/algorithm1/leukemia_clusters.png`)
+
+---
+
+## 2. GLIOMA Dataset
+
+### **Final Cluster Labels**
+[2 0 2 0 0 2 0 2 0 0 2 0 0 0 0 0 0 0 0 0 0 3 2 1 2 2 2 3 2 2 2 2 2 2 1 1 1
+1 3 1 2 1 1 2 3 3 3 3 2 1]
+
+### **Evaluation Metrics**
+- **Adjusted Rand Index (ARI):** `0.2755`
+- **Normalized Mutual Info (NMI):** `0.4484`
+- **Adjusted Mutual Info (AMI):** `0.4016`
+- **Fowlkes-Mallows Index (FMI):** `0.4642`
+- **Purity Score:** `0.62`
+
+---
+
+## 3. Supervised Validation (GLIOMA Dataset)
+- **Cross-Validation Accuracy Scores:** `[0.7, 0.6, 0.8, 0.9, 0.9]`
+- **Mean Accuracy:** `0.78`
+- **Standard Deviation:** `0.1166`
+- **Best Accuracy:** `0.90`
+
+### **Visualizations (To Be Added)**
+- Silhouette Plot (`/results/algorithm1/glioma_silhouette.png`)
+- Cluster Heatmap (`/results/algorithm1/glioma_heatmap.png`)
+- Hierarchical Clustering Dendrogram (`/results/algorithm1/glioma_dendrogram.png`)
+- Cluster Visualization (`/results/algorithm1/glioma_clusters.png`)
+
+---
+
+## **Summary of Algorithm 1**
+Algorithm 1 demonstrated **moderate clustering performance** on the Leukemia dataset (Purity `0.72`, FMI `0.61`) and **better performance on the GLIOMA dataset** (NMI `0.44`, ARI `0.27`). Supervised validation on GLIOMA confirmed **robust classification potential with a peak accuracy of 90%**. Visualizations (to be included) will provide insights into cluster structure, quality, and separability.
+
