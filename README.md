@@ -40,4 +40,7 @@ This project explores three manual clustering approaches that:
 - **Visual Outputs:** Heatmaps, scatter plots, dendrograms, and learned similarity matrices.
 
 ## **Repository Structure**
-
+├── SNN_Clustering.py # Shared Nearest Neighbor clustering implementation
+├── SIMLR_Clustering.py # Multi-kernel similarity-based clustering (SIMLR)
+├── SOM_Spectral.py # Self-Organizing Maps with Spectral Clustering
+└── README.md # Project documentation
