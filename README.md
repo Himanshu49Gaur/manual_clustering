@@ -62,3 +62,14 @@ This repository explores **three powerful clustering techniques** that overcome 
 - **Visualizations:** Graph visualizations, connectivity heatmaps.
 
 ---
+
+### **2. SIMLR (Single-cell Interpretation via Multi-kernel Learning Representation)**
+- **Core Idea:** Learns an optimal similarity graph using **multiple Gaussian kernels**, then performs **spectral embedding** for clustering.
+- **Pipeline:**
+  1. **Manual PCA** for dimensionality reduction.
+  2. **Multi-kernel learning:** Constructs similarity graphs using various kernels.
+  3. **Network diffusion & spectral embedding:** Refines similarity matrix to reveal structure.
+  4. **Manual K-Means:** Clusters samples in low-dimensional space.
+- **Datasets:** `ALLAML.mat`, `leukemia.mat`.
+- **Evaluation Metrics:** ARI, NMI, Silhouette, Purity.
+- **Visualizations:** Heatmap of learned similarity matrix, PCA scatter plots.
