@@ -33,5 +33,11 @@ This project explores three manual clustering approaches that:
 
 ---
 
+## **Features**
+- **Custom Implementations:** Fully manual clustering pipelines (no off-the-shelf clustering functions).
+- **Dimensionality Reduction:** PCA, multi-kernel learning, and SOM for visualization.
+- **Evaluation Metrics:** Adjusted Rand Index (ARI), Normalized Mutual Information (NMI), Silhouette Score, Purity Score.
+- **Visual Outputs:** Heatmaps, scatter plots, dendrograms, and learned similarity matrices.
+
 ## **Repository Structure**
 
