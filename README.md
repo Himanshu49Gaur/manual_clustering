@@ -265,3 +265,27 @@ This section presents the results of the **SNN-Cliq** clustering algorithm appli
 - **ALLAML dataset:** Clustering results were **weak**, with **negative ARI** and **zero NMI**, indicating minimal structure in the data.  
 - Visualization will help assess **cluster compactness** and **why performance varied significantly across datasets**.  
 
+---
+
+## Future Enhancements  
+
+To further improve the performance, usability, and scalability of the clustering framework, the following enhancements are planned:  
+
+### **1. Integration with GPU-Accelerated Libraries (e.g., CuPy, PyTorch)**  
+Leveraging GPU acceleration will significantly **reduce computation time**, especially for large-scale biological datasets, enabling **real-time clustering and analysis**.  
+
+### **2. Addition of Benchmark Datasets for Standardized Testing**  
+Incorporating widely used benchmark datasets will allow **consistent evaluation** of algorithm performance, ensuring **reproducibility and comparability** across studies.  
+
+### **3. Web-Based Interactive Visualization (e.g., Streamlit)**  
+Developing a **web-based dashboard** for interactive visualization will help researchers **explore clusters dynamically**, adjust parameters on the fly, and view **real-time clustering results**.  
+
+### **4. Integration with Deep Learning-Based Embedding Methods**  
+Combining clustering with **deep representation learning** (e.g., autoencoders, graph neural networks) can improve **feature extraction** and **clustering accuracy** on high-dimensional data.  
+
+### **5. Automated Parameter Tuning for k (Neighbors, Clusters)**  
+Implementing **automated hyperparameter optimization** techniques (e.g., Bayesian optimization, genetic algorithms) will eliminate the need for **manual tuning**, saving time and improving results.  
+
+### **6. Support for Multi-Modal Biological Datasets**  
+Extending the framework to handle **multi-omics** or **multi-modal datasets** will enable **comprehensive biological insights**, integrating data such as **gene expression, proteomics, and epigenomics**.  
+
