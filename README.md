@@ -289,3 +289,17 @@ Implementing **automated hyperparameter optimization** techniques (e.g., Bayesia
 ### **6. Support for Multi-Modal Biological Datasets**  
 Extending the framework to handle **multi-omics** or **multi-modal datasets** will enable **comprehensive biological insights**, integrating data such as **gene expression, proteomics, and epigenomics**.  
 
+--- 
+
+# Author  
+**Himanshu Gaur**  
+B.Tech Student, VIT Bhopal (Expected Graduation: May 2027)  
+Cybersecurity Enthusiast | AI & ML Researcher  
+- **GitHub:** [https://github.com/Himanshu49Gaur](https://github.com/Himanshu49Gaur)  
+- **LinkedIn:** [https://linkedin.com/in/himanshu-gaur-305006282/](https://linkedin.com/in/himanshu-gaur-305006282/)  
+
+---
+
+# License  
+This project is licensed under the **MIT License** – you are free to use, modify, and distribute this project, provided that proper credit is given to the author.
+
