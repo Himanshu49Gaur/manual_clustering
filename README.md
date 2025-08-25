@@ -5,18 +5,18 @@ This repository contains three Python implementations of **manual clustering alg
 ---
 
 ## **Table of Contents**
-1. [Project Overview](#project-overview)
-2. [Repository Structure](#repository-structure)
-3. [Algorithms Implemented](#algorithms-implemented)
-   - [1. Similarity Network Fusion (SNF)](#1-similarity-network-fusion-snf)
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Repository Structure](#repository-structure)
+4. [Algorithms Implemented](#algorithms-implemented)
+   - [1. SNN-Based Clustering](#1-snn-based-clustering)
    - [2. SIMLR (Single-cell Interpretation via Multi-kernel Learning Representation)](#2-simlr-single-cell-interpretation-via-multi-kernel-learning-representation)
-   - [3. Spectral Clustering with Shared Nearest Neighbor (SNN)](#3-spectral-clustering-with-shared-nearest-neighbor-snn)
-4. [Installation & Requirements](#installation--requirements)
-5. [Usage](#usage)
-6. [Evaluation Metrics](#evaluation-metrics)
-7. [Results & Visualizations](#results--visualizations)
-8. [Future Work](#future-work)
-9. [License](#license)
+   - [3. Self-Organizing Maps (SOM) with Spectral Clustering](#3-self-organizing-maps-som-with-spectral-clustering)
+5. [Installation & Usage](#installation--usage)
+6. [Results & Visualizations](#results--visualizations)
+7. [Future Enhancements](#future-enhancements)
+8. [License](#license)
+
 
 ---
 
