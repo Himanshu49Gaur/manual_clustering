@@ -216,4 +216,52 @@ This section presents the results of the **SIMLR** algorithm applied to **Datase
 - **Purity scores** remained moderate (~0.65) despite low internal cluster validation scores.  
 - Visualizations will provide deeper insights into **why clusters failed to form well** and whether **data distribution impacted performance**.  
 
+--- 
+
+## Algorithm 3: SNN-Cliq Clustering Results  
+
+This section presents the results of the **SNN-Cliq** clustering algorithm applied to the **GLIOMA** and **ALLAML** datasets. Hyperparameters were optimized via **grid search** for best clustering performance.  
+
+---
+
+### **Dataset 1 (GLIOMA Dataset)**  
+
+### **Best Hyperparameters:**  
+- **k:** 20  
+- **min_shared_neighbors:** 12  
+
+### **Evaluation Metrics:**  
+- **Silhouette Score:** 0.121  
+- **Purity Score:** 0.749  
+- **Adjusted Rand Index (ARI):** 0.235  
+- **Normalized Mutual Information (NMI):** 0.373  
+- **Fowlkes-Mallows Index (FMI):** 0.432  
+
+### **Visualizations**  
+1. Cluster Visualization (showing clear separation of clusters identified by SNN-Cliq).  
+
+---
+
+### **Dataset 2 (ALLAML Dataset)**  
+
+### **Best Hyperparameters:**  
+- **k:** 60  
+- **min_shared_neighbors:** 6  
+
+### **Evaluation Metrics:**  
+- **Silhouette Score:** 0.069  
+- **Purity Score:** 0.540  
+- **Adjusted Rand Index (ARI):** -0.014  
+- **Normalized Mutual Information (NMI):** 0.000  
+- **Fowlkes-Mallows Index (FMI):** 0.573  
+
+### **Visualizations**  
+1. Cluster Visualization (revealing cluster overlaps and misclassifications).  
+
+---
+
+### **Observation:**  
+- **GLIOMA dataset:** SNN-Cliq outperformed previous algorithms with **moderate clustering quality** (higher **ARI**, **NMI**, and **FMI**).  
+- **ALLAML dataset:** Clustering results were **weak**, with **negative ARI** and **zero NMI**, indicating minimal structure in the data.  
+- Visualization will help assess **cluster compactness** and **why performance varied significantly across datasets**.  
 
