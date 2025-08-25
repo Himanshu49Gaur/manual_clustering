@@ -73,3 +73,14 @@ This repository explores **three powerful clustering techniques** that overcome 
 - **Datasets:** `ALLAML.mat`, `leukemia.mat`.
 - **Evaluation Metrics:** ARI, NMI, Silhouette, Purity.
 - **Visualizations:** Heatmap of learned similarity matrix, PCA scatter plots.
+
+### **3. Self-Organizing Maps (SOM) with Spectral Clustering**
+- **Core Idea:** Uses **SOM** for unsupervised feature mapping and then applies **Spectral Clustering** for final group formation.
+- **Pipeline:**
+  1. Train SOM to map high-dimensional data to a 2D grid.
+  2. Construct a graph from SOM prototypes.
+  3. Apply Spectral Clustering to find clusters.
+- **Advantages:** Combines **topology-preserving mapping** with **graph-based clustering**.
+- **Visualizations:** SOM grid plots, spectral embedding graphs.
+
+---
