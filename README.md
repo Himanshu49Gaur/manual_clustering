@@ -47,3 +47,19 @@ This project explores three manual clustering approaches that:
 ├── SOM_Spectral.py # Self-Organizing Maps with Spectral Clustering
 
 └── README.md # Project documentation
+
+---
+
+## **Algorithms Implemented**
+
+### **1. SNN-Based Clustering**
+- **Core Idea:** Constructs a similarity graph using **shared nearest neighbors** and detects clusters via **graph connectivity**.
+- **Pipeline:**
+  1. Standardize data and compute Euclidean distances.
+  2. Build a k-nearest neighbor graph.
+  3. Compute shared nearest neighbor similarity.
+  4. Identify clusters based on dense connectivity.
+- **Applications:** Suitable for noisy, high-dimensional datasets like **gene expression profiles**.
+- **Visualizations:** Graph visualizations, connectivity heatmaps.
+
+---
