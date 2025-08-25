@@ -193,7 +193,7 @@ This section presents the results of the **SIMLR** algorithm applied to **Datase
 
 ---
 
-## **Dataset 2 **  
+## **Dataset 2**
 
 ### **Clustering Summary:**  
 - **Cluster Sizes:** {Cluster 1: 36, Cluster 0: 36}  
