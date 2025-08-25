@@ -74,6 +74,8 @@ This repository explores **three powerful clustering techniques** that overcome 
 - **Evaluation Metrics:** ARI, NMI, Silhouette, Purity.
 - **Visualizations:** Heatmap of learned similarity matrix, PCA scatter plots.
 
+---
+
 ### **3. Self-Organizing Maps (SOM) with Spectral Clustering**
 - **Core Idea:** Uses **SOM** for unsupervised feature mapping and then applies **Spectral Clustering** for final group formation.
 - **Pipeline:**
