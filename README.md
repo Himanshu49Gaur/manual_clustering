@@ -96,3 +96,11 @@ This repository explores **three powerful clustering techniques** that overcome 
 pip install numpy scipy scikit-learn matplotlib seaborn networkx pandas os collections time 
 
 ```
+
+---
+
+Clone this repository:
+   ```
+   git clone https://github.com/Himanshu49Gaur/manual_clustering.git
+   cd manual_clustering
+   ```
