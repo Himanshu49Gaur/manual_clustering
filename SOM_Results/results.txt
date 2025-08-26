@@ -1,0 +1,8 @@
+Running grid search for GLIOMA dataset ...
+
+Best Hyperparameters: k=20, min_shared_neighbors=12
+Silhouette Score: 0.121
+Purity Score:     0.749
+Adjusted Rand Index (ARI): 0.235
+Normalized Mutual Information (NMI): 0.373
+Fowlkes-Mallows Index (FMI): 0.432
