@@ -6,3 +6,18 @@ Purity Score:     0.749
 Adjusted Rand Index (ARI): 0.235
 Normalized Mutual Information (NMI): 0.373
 Fowlkes-Mallows Index (FMI): 0.432
+
+------------------------------------------------------------------------------------------------
+
+Running grid search for ALLAML dataset ...
+
+Best Hyperparameters: k=60, min_shared_neighbors=6
+Silhouette Score: 0.069
+Purity Score:     0.540
+Adjusted Rand Index (ARI): -0.014
+Normalized Mutual Information (NMI): 0.000
+Fowlkes-Mallows Index (FMI): 0.573
+
+------------------------------------------------------------------------------------------------
+
+Grid search completed.
