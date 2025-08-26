@@ -1,0 +1,13 @@
+
+Leukemia Dataset Results:
+
+Final Labels:
+ [1 0 1 1 0 0 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 1 1 1 1 1 1 0 1 1 1
+ 1 1 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 0 0 1 0 1 0 0 1 1 1]
+
+Leukemia Dataset Evaluation Metrics:
+Adjusted Rand Index (ARI): 0.1858690905037049
+Normalized Mutual Info (NMI): 0.13938683316819436
+Adjusted Mutual Info (AMI): 0.13006702163838693
+Fowlkes-Mallows Index (FMI): 0.610298275056738
+Purity Score: 0.7222222222222222
