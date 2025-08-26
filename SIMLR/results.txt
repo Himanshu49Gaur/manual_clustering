@@ -1,0 +1,14 @@
+Performing PCA for dimensionality reduction on Dataset 1...
+
+Running SIMLR algorithm on Dataset 1 (c=2, k=15)...
+
+Clustering completed for Dataset 1.
+Cluster sizes: Counter({1: 50, 0: 22})
+
+Evaluating clustering performance for Dataset 1:
+
+--- Evaluation Metrics ---
+Adjusted Rand Index (ARI):     -0.0248
+Normalized Mutual Information: 0.0087
+Silhouette Score:              0.0445
+Purity Score:                  0.6528
