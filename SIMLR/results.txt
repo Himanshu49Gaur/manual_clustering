@@ -12,3 +12,22 @@ Adjusted Rand Index (ARI):     -0.0248
 Normalized Mutual Information: 0.0087
 Silhouette Score:              0.0445
 Purity Score:                  0.6528
+
+------------------------------------------------------------------------------------------------
+
+Loading Dataset 2...
+
+Performing PCA for dimensionality reduction on Dataset 2...
+
+Running SIMLR algorithm on Dataset 2 (c=2, k=15)...
+
+Clustering completed for Dataset 2.
+Cluster sizes: Counter({1: 36, 0: 36})
+
+Evaluating clustering performance for Dataset 2:
+
+--- Evaluation Metrics ---
+Adjusted Rand Index (ARI):     -0.0122
+Normalized Mutual Information: 0.0006
+Silhouette Score:              0.0039
+Purity Score:                  0.6528
